@@ -1,0 +1,11 @@
+{
+  "title": "Missing Data",
+  "e_step": "Fill each missing entry with its conditional expectation under the current Gaussian.",
+  "m_step": "Refit mean and covariance on the completed sufficient statistics.",
+  "key_result": "EM preserves correlation and lowers imputation RMSE vs single mean-fill.",
+  "figures": {
+    "nb05_imputation_scatter": "Mean-fill collapses the cloud; EM restores it.",
+    "nb05_correlation_bar": "Recovered correlation: true vs EM vs mean-fill.",
+    "nb05_loglik": "Monotone observed-data log-likelihood."
+  }
+}

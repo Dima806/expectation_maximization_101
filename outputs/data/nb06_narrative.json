@@ -1,0 +1,22 @@
+{
+  "title": "When EM Struggles",
+  "failure_modes": [
+    "Local optima \u2014 mitigate with k-means++ and multiple restarts.",
+    "Slow crawl near convergence \u2014 judge on log-likelihood change.",
+    "Component collapse / singular covariance \u2014 regularize (reg_covar).",
+    "Wrong number of components \u2014 choose k with BIC/AIC."
+  ],
+  "decision_framework": {
+    "continuous_groups": "GMM",
+    "categorical_responses": "LCA",
+    "fast_round_clusters": "K-Means (hard EM)",
+    "missing_values": "EM imputation",
+    "always": "restarts + k-means++ + covariance regularization + model selection"
+  },
+  "figures": {
+    "nb06_restart_spread": "Final log-likelihoods of 40 random starts.",
+    "nb06_good_vs_bad": "A good solution vs a bad local optimum on the same data.",
+    "nb06_init_strategies": "k-means++ reaches the best basin far more often than random.",
+    "nb06_model_selection": "BIC/AIC recover the true component count."
+  }
+}

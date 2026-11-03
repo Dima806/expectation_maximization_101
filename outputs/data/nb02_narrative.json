@@ -1,0 +1,10 @@
+{
+  "title": "Two Coins",
+  "problem": "Recover two coin biases and the hidden coin-of-origin from flip-counts alone.",
+  "e_step": "Responsibility that each series came from each coin (binomial kernel, soft label).",
+  "m_step": "Re-estimate each bias as a responsibility-weighted head rate.",
+  "figures": {
+    "nb02_first_estep": "Responsibilities for the first six series after the wild guess.",
+    "nb02_convergence": "Monotone log-likelihood and recovered-vs-planted biases."
+  }
+}

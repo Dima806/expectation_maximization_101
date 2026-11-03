@@ -1,0 +1,14 @@
+# Default configuration for expectation_maximization_101.
+# Loaded by src/config.py (pydantic-settings). Override via EM101_* env vars.
+
+seed: 42
+
+em:
+  max_iter: 200
+  tol: 1.0e-6
+  reg_covar: 1.0e-6
+  n_init: 10
+
+data:
+  seed: 42
+  n_samples: 1500

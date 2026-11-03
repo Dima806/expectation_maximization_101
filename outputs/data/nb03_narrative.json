@@ -1,0 +1,11 @@
+{
+  "title": "Gaussian Mixture From Scratch",
+  "e_step": "Responsibilities r_ik via log-sum-exp (soft membership of point i in component k).",
+  "m_step": "Weighted re-estimation of each component's weight, mean, and full covariance.",
+  "key_result": "Recovered 3 components (means, covariances, weights) from unlabeled data; matches sklearn.",
+  "figures": {
+    "nb03_data": "The unlabeled input points.",
+    "nb03_iterations": "Components separating across EM iterations (2-sigma ellipses).",
+    "nb03_loglik": "Monotone non-decreasing log-likelihood."
+  }
+}

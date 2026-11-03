@@ -1,0 +1,10 @@
+{
+  "before": {
+    "thetaA": 0.6,
+    "thetaB": 0.5
+  },
+  "after_one_step": {
+    "thetaA": 0.7079289758456919,
+    "thetaB": 0.4417197646142493
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "n_restarts": 40,
+  "gap": 1.0,
+  "best_log_likelihood": -4984.478579446041,
+  "random_init": {
+    "success_fraction": 0.425,
+    "mean_ll": -5202.96008388213,
+    "worst_ll": -5655.007355004669
+  },
+  "kmeanspp_init": {
+    "success_fraction": 0.8,
+    "mean_ll": -5048.9024865528145,
+    "worst_ll": -5319.421661851436
+  }
+}

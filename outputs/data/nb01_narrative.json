@@ -1,0 +1,15 @@
+{
+  "title": "The Chicken and the Egg",
+  "thesis": "EM is a two-step loop (E: guess soft labels; M: fit as if true; repeat) that provably never lowers the likelihood and recovers populations never observed separately.",
+  "the_bind": [
+    "If you knew the labels, estimating the parameters would be trivial.",
+    "If you knew the parameters, guessing the labels would be trivial.",
+    "You know neither."
+  ],
+  "the_resolution": "Bootstrap: guess one, fit the other as if true, re-guess, repeat.",
+  "figures": {
+    "nb01_tangled_data": "The observed, unlabeled mixture.",
+    "nb01_hidden_truth": "The hidden component labels EM must recover.",
+    "nb01_recovered_teaser": "EM recovering the two populations from the tangle."
+  }
+}

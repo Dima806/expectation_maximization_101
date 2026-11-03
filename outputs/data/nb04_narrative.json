@@ -1,0 +1,10 @@
+{
+  "title": "K-Means Is Hard EM",
+  "claim": "K-Means = EM with hard (argmax) responsibilities, spherical equal covariance, equal weights.",
+  "what_soft_buys": "Soft membership and full covariance recover elliptical / unequal-weight groups K-Means breaks.",
+  "figures": {
+    "nb04_kmeans_vs_hardem": "K-Means and the hard-EM GMM loop produce the identical partition.",
+    "nb04_soft_vs_hard": "On unequal-spread clusters, GMM beats K-Means.",
+    "nb04_soft_membership": "Graded responsibilities near the boundary."
+  }
+}

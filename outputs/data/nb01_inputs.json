@@ -1,0 +1,19 @@
+{
+  "description": "Planted 1-D two-population Gaussian mixture used in notebook 01.",
+  "planted_truth": {
+    "weights": [
+      0.55,
+      0.45
+    ],
+    "means": [
+      168.0,
+      178.0
+    ],
+    "stds": [
+      5.0,
+      6.0
+    ],
+    "n_samples": 1200,
+    "seed": 7
+  }
+}
